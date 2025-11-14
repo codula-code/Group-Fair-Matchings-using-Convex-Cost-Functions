@@ -41,7 +41,7 @@ A collection of scripts to extract data from the MovieLens dataset and reproduce
    data_extraction.py  Parses u.data and u.user and produces the input file.    
    top_xx            Precomputed input subsets (top-10, -20, -50, -75, -100) for sol.py.    
 
-8. GENERATING PLOTS
+8. GENERATING PLOTS  
    If you want to generate plots, you have to run `rounding_while_plotting` instead of the default rounding function. To do this, you need to modify `sol.py`. In the main execution block (at the end of the file), change the function call from `rounding` to `rounding_while_plotting`.  
 
    Specifically, change this line:  
