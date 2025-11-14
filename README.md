@@ -51,7 +51,7 @@ A collection of scripts to extract data from the MovieLens dataset and reproduce
       if(k==0):
          return 1
       else:
-         return -math.log(x)```
+         return -math.log(x)
 
    def g(k):
       x=k
